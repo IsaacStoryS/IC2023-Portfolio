@@ -1,1 +1,23 @@
-html {background-color: white; }
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+      background-image: url('images/ezgif.com-crop\ \(3\).gif');
+      background-size: cover; 
+  position: relative; 
+  }
+  
+   .overlay-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 120%) scale(0.8);
+   transition: transform 0.3s ease;
+   }
+      
+  .overlay-image:hover {
+             
+      transform: translate(-50%, 120%) scale(1.2);
+       }
