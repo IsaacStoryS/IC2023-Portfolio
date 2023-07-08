@@ -1,0 +1,46 @@
+body {
+    background-image: url("images/pagesfile.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .image-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:235px;
+  }
+
+  .image-container img {
+    width: 320px;
+    height: 350px;
+    margin: 50px;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .imgcontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgwrap {
+    position: relative;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .imgwrap:hover .hover-image {
+    opacity: 1;
+  }
+  
