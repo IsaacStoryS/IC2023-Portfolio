@@ -3,3 +3,45 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .image-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 90px;
+  }
+
+  .image-container img {
+    width: 400px;
+    height: 430px;
+    margin: 60px;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .imgcontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgwrap {
+    position: relative;
+    display: flex;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .imgwrap:hover .hover-image {
+    opacity: 1;
+  }
+  

@@ -8,13 +8,13 @@ body {
     display:flex;
     justify-content: center;
     align-items:center;
-    margin-top:235px;
+    margin: 160px;
   }
 
   .image-container img {
     width: 320px;
     height: 350px;
-    margin: 50px;
+    margin: 30px;
   }
 
   html {
@@ -30,6 +30,7 @@ body {
   
   .imgwrap {
     position: relative;
+    display: flex;
   }
   
   .hover-image {
