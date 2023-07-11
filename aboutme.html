@@ -17,5 +17,19 @@
 
         <img class="overlay-image" src="images/ABOUTMEREAL.png" alt="Overlay Image">
 
-
+        <div class="gif">
+            <img src="images/Untitled design.gif">
     </div>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <p id="clockw3"></p>
+
+<script>
+setInterval(myTimer, 0);
+
+function myTimer() {
+const d = new Date();
+document.getElementById("clockw3").innerHTML = d.toLocaleTimeString();
+}
+</script>

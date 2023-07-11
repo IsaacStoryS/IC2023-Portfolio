@@ -1,7 +1,7 @@
 #scroll {
     height: 400vh; 
     overflow-y: scroll;
-    background-image: url("images/Untitled\ \(1920\ ×\ 3000\ px\)\ \(1920\ ×\ 3300\ px\)\ \(1920\ ×\ 3350\ px\)\ \(1920\ ×\ 3450\ px\)\ \(1920\ ×\ 3600\ px\).jpg");
+    background-image: url("images/aABOUTMEEE.png");
     background-size: cover;
   }
 
@@ -26,3 +26,22 @@
     left: 50%;
 
    }
+
+   .gif {
+    position: absolute;
+    top: 250%;
+    left: 20%;
+    scale: .7
+  }
+  
+  #clockw3 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    position: absolute;
+    top: 390%;
+    left: 5%;
+    scale: 1.5
+
+  }
+  
+  

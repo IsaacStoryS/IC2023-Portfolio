@@ -41,3 +41,23 @@
 
    </a>
 </div>
+
+
+<div class="astro">
+    <img src="images/astronaut.gif">
+</div>
+
+  
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<p id="clockw3"></p>
+
+<script>
+setInterval(myTimer, 0);
+
+function myTimer() {
+const d = new Date();
+document.getElementById("clockw3").innerHTML = d.toLocaleTimeString();
+}
+</script>
+

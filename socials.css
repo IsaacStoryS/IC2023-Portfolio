@@ -56,4 +56,23 @@ body {
     transform: translate( 110%, 202%) scale(1.2);
   }
   
- 
+
+  
+  .astro {
+    position: absolute;
+    top:-1.89%;
+    left: 75%;
+    scale:.5;
+    
+  }
+  
+  #clockw3 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    scale: 2.0
+
+  }
+  
