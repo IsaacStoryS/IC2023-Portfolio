@@ -1,6 +1,28 @@
 #scroll {
     height: 400vh; 
     overflow-y: scroll;
-    background-image: url("images/Untitled\ \(1920\ ×\ 3000\ px\)\ \(1920\ ×\ 3300\ px\)\ \(1920\ ×\ 3350\ px\)\ \(1920\ ×\ 3450\ px\)\ \(1920\ ×\ 3600\ px\)\ \(2\).png");
+    background-image: url("images/Untitled\ \(1920\ ×\ 3000\ px\)\ \(1920\ ×\ 3300\ px\)\ \(1920\ ×\ 3350\ px\)\ \(1920\ ×\ 3450\ px\)\ \(1920\ ×\ 3600\ px\).jpg");
     background-size: cover;
   }
+
+   
+  .overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 140%) scale(0.8);
+ transition: transform 0.3s ease;
+ }
+    
+.overlay-image:hover {
+           
+    transform: translate(-50%, 140%) scale(1.0);
+     }
+
+ 
+
+     .overlay-image{
+    top: -75%;
+    left: 50%;
+
+   }

@@ -1,0 +1,59 @@
+body {
+    background-image: url("images/Wireframe\ Website\ \(1920\ ×\ 1080\ px\)\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+.email {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(110%, 80%) scale(1);
+  transition: transform 0.3s ease;
+}
+
+.email:hover {
+  transform: translate(110%, 80%) scale(1.2);
+}
+
+
+ 
+.phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-660%, -150%) scale(1.0);
+    transition: transform 0.3s ease;
+  }
+  
+  .phone:hover {
+    transform: translate(-660%, -150%) scale(1.2);
+  }
+  
+   
+.linkedin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -660%, -285%) scale(1);
+    transition: transform 0.3s ease;
+  }
+  
+  .linkedin:hover {
+    transform: translate( -660%, -285%) scale(1.2);
+  }
+  
+  .insta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 110%, 202%) scale(1);
+    transition: transform 0.3s ease;
+  }
+  
+  .insta:hover {
+    transform: translate( 110%, 202%) scale(1.2);
+  }
+  
+ 
